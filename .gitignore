@@ -13,7 +13,7 @@ __pycache__/
 .DS_Store
 
 # Data
-# data/*.csv
+data/*.csv
 
 # FAISS index (gerado em runtime)
 *.index
