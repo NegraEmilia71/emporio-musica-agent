@@ -19,3 +19,4 @@ data/*.csv
 *.index
 faiss_index.bin
 metadata.json           
+scratch.py
