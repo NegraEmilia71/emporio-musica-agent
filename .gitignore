@@ -1,11 +1,21 @@
-emporio-musica-agent/
-├── data/                    
-├── src/
-│   ├── tools/
-│   └── __init__.py
-├── examples/
-├── tests/
-├── .env.example
-├── .gitignore
-├── requirements.txt
-└── README.md               
+# Environment
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Data
+# data/*.csv
+
+# FAISS index (gerado em runtime)
+*.index
+faiss_index.bin
+metadata.json           
